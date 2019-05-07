@@ -16,10 +16,10 @@ function johnLennonFacts(facts){
     var newFacts = []
     for(var b =0; b <facts.length-1; b++){
       newFacts.push(facts[b]+"!!!")
-    }
+    }  return newFacts;
   }
   
-  return newFacts;
+
 }
 
 function iLoveTheBeatles(number){

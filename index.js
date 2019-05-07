@@ -2,7 +2,7 @@
 function theBeatlesPlay(musicians,instruments){
   var newstuff=[];
   
-  for(var a = 0; a<=musicians.length; a++){
+  for(var a = 0; a<=musicians.length+1; a++){
     var newWord =musicians[a]+" plays " + instruments[a];
     newstuff.push(newWord);
   }
@@ -11,7 +11,7 @@ function theBeatlesPlay(musicians,instruments){
 }
 
 function johnLennonFacts(facts){
-  while(b < facts.length){
+  while(b < facts.length+1){
     for( var b = 0; b != NULL; b++){
       facts[b] = facts[b] + "!!!";
     }

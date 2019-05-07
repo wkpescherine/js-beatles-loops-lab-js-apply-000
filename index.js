@@ -1,5 +1,5 @@
 // add solution here
-function theBeatlesPlay(musicians[],instruments[]){
+function theBeatlesPlay(musicians,instruments){
   var newstuff[];
   
   for(var a = 0; a<=musicians.length; a++){
@@ -10,7 +10,7 @@ function theBeatlesPlay(musicians[],instruments[]){
   return newstuff
 }
 
-function johnLennonFacts(facts[]){
+function johnLennonFacts(facts){
   var a;
   while(a < facts.length){
     for(a = 0; a != NULL; a++){
@@ -19,4 +19,14 @@ function johnLennonFacts(facts[]){
   }
   
   return facts;
+}
+
+function iLoveTheBeatles(number){
+  var words= []
+  do{
+    words.push("I love hte Beatles!")
+    number +=1;
+  }while(number <15)
+  
+  return words;
 }

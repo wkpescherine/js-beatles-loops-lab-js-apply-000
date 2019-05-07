@@ -10,8 +10,13 @@ function theBeatlesPlay(musicians[],instruments[]){
   return newstuff
 }
 
-function johnLennonFacts(){
-  while(var a < facts){
-    
+function johnLennonFacts(facts[]){
+  var a;
+  while(a < facts.length){
+    for(a = 0; a != NULL; a++){
+      facts[a] = facts[a] + "!!!";
+    }
   }
+  
+  return facts;
 }
